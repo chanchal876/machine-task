@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="vending-machine">
+        <h1>Vending Machine</h1>
+        <div class="product-list"></div>
+
+        <div class="input-section">
+          
+          <!-- <form> -->
+            <label for="selection">Enter product number: </label>
+            <input type="number" min="1">
+            <button onclick="dispenseProduct()">Get Product</button>
+          <!-- </form> -->
+        </div>
+        <div id="message"></div>
+      </div>
+
+    <script src="vending.js"></script>
+    
+</body>
+</html>
